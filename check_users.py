@@ -2,7 +2,7 @@ def check_users(current_users, new_users):
     pass
 
 current_users = ['chris','haritha', 'sally', 'darnell', 'supErman']
-new_users =['george', 'ringo', 'SuPerMan', 'hannibal', 'Josh']
+new_users =['george', 'ringo', 'SuPerMan', 'hannibal', 'josh']
 
 new_list = []
 for current_user in current_users:
@@ -16,5 +16,5 @@ else:
 
 if __name__ == "__main__":
  current_us = ['chris','haritha', 'sally', 'darnell', 'superman']
- new_us = ['george', 'ringo', 'superman', 'hannibal']
+ new_us = ['george', 'ringo', 'superman', 'hannibal', 'josh']
  check_users(current_us, new_us)
