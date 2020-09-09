@@ -1,8 +1,8 @@
 def check_users(current_users, new_users):
     pass
 
-current_users = ['chris','haritha', 'supErman', 'sally', 'darnell']
-new_users =['george', 'ringo', 'hannibal', 'josh', 'SuPerMan']
+current_users = ['JOSH','haritha', 'sally', 'darnell', 'supErman']
+new_users =['george', 'ringo', 'SuPerMan', 'hannibal', 'joSh']
 
 new_list = []
 for current_user in current_users:
@@ -11,8 +11,8 @@ for current_user in current_users:
 for new_user in new_users:
     if new_user.lower() not in new_list:
         print(f"The username {new_user} is available!")
-else:
-    print("This username is already taken.")
+    else:
+        print("This username is already taken. Please enter a new username.")
 
 if __name__ == "__main__":
  current_us = ['chris','haritha', 'superman', 'sally', 'darnell']
