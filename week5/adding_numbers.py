@@ -9,7 +9,7 @@ def add_them_all(filename):
 
     for i in range(0, len(number_list)): 
         number_list[i] = int(number_list[i])
-        sum = sum + number_list[i]
+        sum += number_list[i]
 
     return sum
 
