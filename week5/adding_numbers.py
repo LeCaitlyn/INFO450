@@ -5,8 +5,7 @@ def add_them_all(filename):
 
     with open(filename, 'r') as f:
         contents = f.read()
-    number_list = contents.split('\n')
-    number_list.remove('')
+    number_list = contents.split()
 
     for i in range(0, len(number_list)): 
         number_list[i] = int(number_list[i])
