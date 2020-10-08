@@ -1,7 +1,7 @@
 
 # Page 84 Assignment
 
-killed_color = 'green'
+killed_color = 'red'
 
 def get_points(killed_color):
     earned_points = 0
@@ -17,7 +17,7 @@ def get_points(killed_color):
     return earned_points
 
 if __name__ == "__main__":
-    pts = get_points('red')
+    pts = get_points(killed_color)
     print(f"For {killed_color}, you got {pts} points.")
 
 # If I wanted to check to see if your function is correct (or if something is missing)

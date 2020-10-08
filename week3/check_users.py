@@ -15,3 +15,4 @@ if __name__ == "__main__":
  current_us = ['JOSH','haritha', 'sally', 'darnell', 'supErman']
  new_us = ['george', 'ringo', 'SuPerMan', 'hannibal', 'joSh']
  check_users(current_us, new_us)
+
