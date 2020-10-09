@@ -146,15 +146,3 @@
 # 22. Runtime
 # 23. Compile Time
 # 24. 
-
-import logging
-logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
-
-score_list = [1, 2, 3, 4, 5, 5, 5, 5]
-last_list = []
-new_list = score_list.sort()
-new_list_2 = score_list.sort()
-for x in new_list:
-    if x not in new_list_2:
-        last_list.append(x)
-return last_list
