@@ -18,5 +18,6 @@ def find_runner_up(score_list):
     return(score)
 
 if __name__ == "__main__":
-    points = find_runner_up([5, 3, 4, 7, 8, 4, 1, 8, 8, 6, 7])
+    points = find_runner_up([1, 3, 2, 600, 4])
     logging.debug(points)
+    
