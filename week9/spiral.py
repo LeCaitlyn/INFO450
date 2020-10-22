@@ -1,5 +1,5 @@
 # import numpy as np # I also commented this out since it would interfere with my VS Code and only worked in Jupiter Notebook
-
+ 
 ############################## Plans To Create Spiral ##############################
 
 # My initial thoughts are that we need to start with an empty matrix. We need to create a matrix of size width*height (501*501 in this case) with values of "None"
